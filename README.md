@@ -1,6 +1,11 @@
 # Hello Flask
 
-**Setup**
+### App structure
+
+<img width="483" alt="Screenshot 2022-05-12 at 09 41 49" src="https://user-images.githubusercontent.com/20923607/168029847-bdb95508-6c63-4344-83da-9bb52140a601.png">
+
+
+### Setup
 
 If you have not installed Python3, [please do](https://www.python.org/downloads/).
 
@@ -24,7 +29,7 @@ Then install Flask
 
 `$ pip install Flask`
 
-**Run the app**
+### Run the app
 
 `$ flask run`
 
