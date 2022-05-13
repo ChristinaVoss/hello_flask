@@ -4,6 +4,27 @@
 
 <img width="483" alt="Screenshot 2022-05-12 at 09 41 49" src="https://user-images.githubusercontent.com/20923607/168029847-bdb95508-6c63-4344-83da-9bb52140a601.png">
 
+**Key parts**
+
+In this very tiny app we encounter the absolutely essential parts to making a Flask application.
+
+First we import the Flask library:
+
+`from flask import Flask`
+
+We set up our app variable, which is basically our app, to which you configure and add routes/controller and later extensions.
+
+`app = Flask(__name__)`
+
+Then we set up the controller for a route ('/') for our app:
+
+```
+@app.route('/')
+def index():
+  return "Hello Flask!"
+```
+
+And that's it! Yes - you could add other small conventions (we will in later demos), but here we have a tiny bit of Python, which renders in a browser.
 
 ### Setup
 
